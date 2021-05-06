@@ -1,7 +1,10 @@
 const path = require('path');
 
 module.exports = {
-    stories: ['../src/**/*.stories.tsx'],
+    stories: [
+        '../src/**/*.stories.mdx',
+        '../src/**/*.stories.@(js|jsx|ts|tsx)',
+    ],
 
     // Add any Storybook addons you want here: https://storybook.js.org/addons/
     addons: ['@storybook/addon-docs', '@storybook/addon-knobs'],
@@ -19,7 +22,13 @@ module.exports = {
                 presets: [['react-app', { flow: false, typescript: true }]],
             },
         });
+
         config.resolve.extensions.push('.ts', '.tsx');
+        config.resolve.modules = [
+            ...(config.resolve.modules || []),
+            path.resolve(__dirname, '../'),
+            path.resolve(__dirname, '../src'),
+        ];
 
         return config;
     },

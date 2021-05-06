@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { Box } from 'components/Box';
 import { Text } from 'components/Text';
 import { RoadmapTitle } from 'components/RoadmapTitle';
+import { AvatarList } from 'components/AvatarList';
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
                 languageName='Javascript'
                 languageIcon='https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png'
             />
+            <AvatarList foo='asd' />
         </Box>
     );
 }
