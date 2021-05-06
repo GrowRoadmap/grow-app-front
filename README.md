@@ -1,7 +1,7 @@
-<center>
+<div align="center">
     <img src="https://i.imgur.com/6FubYCR.png" width="300px" />
     <h1><b>Grow Roadmaps</b></h1>
-</center>
+</div>
 
 # Oque é o @Grow?
 
