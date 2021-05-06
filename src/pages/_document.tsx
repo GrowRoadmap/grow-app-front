@@ -1,10 +1,4 @@
-import Document, {
-    DocumentContext,
-    Head,
-    Main,
-    NextScript,
-} from 'next/document';
-
+import Document, { DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
@@ -32,27 +26,5 @@ export default class MyDocument extends Document {
         } finally {
             sheet.seal();
         }
-    }
-
-    render() {
-        return (
-            <html>
-                <Head>
-                    <link
-                        href='https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap'
-                        rel='stylesheet'
-                    />
-                    <link rel='preconnect' href='https://fonts.gstatic.com' />
-                    <link rel='stylesheet' type='text/css' href='/global.css' />
-                    <link
-                        rel='stylesheet'
-                        type='text/css'
-                        href='/normalize.css'
-                    />
-                </Head>
-                <Main />
-                <NextScript />
-            </html>
-        );
     }
 }

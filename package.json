@@ -22,7 +22,14 @@
         "react-truncate": "^2.4.0",
         "styled-components": "^5.1.1",
         "styled-system": "^5.1.5",
-        "styled-tools": "^1.7.2"
+        "styled-tools": "^1.7.2",
+        "@ant-design/icons": "4.2.1",
+        "@next/bundle-analyzer": "^9.1.4",
+        "postcss-preset-env": "^6.7.0",
+        "antd": "4.3.0",
+        "cross-env": "^7.0.2",
+        "dayjs": "1.8.28",
+        "esm": "^3.2.25"
     },
     "devDependencies": {
         "@babel/core": "^7.11.1",
@@ -72,5 +79,9 @@
         "*.{ts,tsx}": [
             "yarn lint:fix"
         ]
+    },
+    "browser": {
+        "fs": false,
+        "path": false
     }
 }

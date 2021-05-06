@@ -24,5 +24,4 @@ module.exports = (componentName) => ({
   `,
     directory: `./src/components/${componentName}/__tests__`,
     extension: `.test.tsx`,
-  });
-  
+});
