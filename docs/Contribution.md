@@ -1,6 +1,6 @@
 # Então você quer contribuir? :fire:
 
-Lista completa de funcionalidades do App em [Functionalities.md](https://github.com/MarcosRenato266/Grow-Roadmaps/blob/master/docs/Functionalities.md).
+Lista completa de funcionalidades do App em [Functionalities.md](https://github.com/GrowRoadmap/grow-app-front/blob/main/docs/Functionalities.md).
 
 ## Stack e libs utilizada:  :bookmark_tabs:
 
