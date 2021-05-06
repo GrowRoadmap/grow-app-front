@@ -11,8 +11,8 @@
 
 ## Quer Contribuir com o projeto? :open_hands:
 
-Para contribuir com o projeto com ideias, Backend, frontend ou design acesse o link [Contribution.md](https://github.com/marcos-nunes-dev/Grow-Roadmaps/blob/master/docs/Contribution.md)
-Se você só está curioso ou quer um "norte" de como pode contribuir veja o arquivo [Functionalities.md](https://github.com/marcos-nunes-dev/Grow-Roadmaps/blob/master/docs/Functionalities.md)
+Para contribuir com o projeto com ideias, Backend, frontend ou design acesse o link [Contribution.md](https://github.com/GrowRoadmap/grow-app-front/blob/main/docs/Contribution.md)
+Se você só está curioso ou quer um "norte" de como pode contribuir veja o arquivo [Functionalities.md](https://github.com/GrowRoadmap/grow-app-front/blob/main/docs/Functionalities.md)
 para conhecer a descrição de todas funcionalidades do app.
 
 ## Porque usar @Grow Roadmaps? :speech_balloon:
@@ -49,19 +49,19 @@ As pessoas que estão fazendo esse projeto existir!
             <sub><b>Marcos Nunes</b></sub>
         </a>
         <br />
-        <a href="https://github.com/marcos-nunes-dev/Grow-Roadmaps/commits?author=marcos-nunes-dev" title="Code">
+        <a href="https://github.com/GrowRoadmap/grow-app-front/commits?author=marcos-nunes-dev" title="Code">
             💻
         </a>
         <a href="#" title="Ideas, Planning, & Feedback">
             🤔
         </a>
-        <a href="https://github.com/marcos-nunes-dev/Grow-Roadmaps/commits?author=marcos-nunes-dev" title="Documentation">
+        <a href="https://github.com/GrowRoadmap/grow-app-front/commits?author=marcos-nunes-dev" title="Documentation">
             📖
         </a>
-        <a href="https://github.com/marcos-nunes-dev/Grow-Roadmaps/pulls?q=is%3Apr+reviewed-by%3marcos-nunes-dev" title="Reviewed Pull Requests">
+        <a href="https://github.com/GrowRoadmap/grow-app-front/pulls?q=is%3Apr+reviewed-by%3marcos-nunes-dev" title="Reviewed Pull Requests">
             👀
         </a>
-        <a href="https://github.com/marcos-nunes-dev/Grow-Roadmaps/issues?q=author%3marcos-nunes-dev" title="Bug reports">
+        <a href="https://github.com/GrowRoadmap/grow-app-front/issues?q=author%3marcos-nunes-dev" title="Bug reports">
             🐛
         </a>
     </td>   
@@ -72,19 +72,19 @@ As pessoas que estão fazendo esse projeto existir!
             <sub><b>Gustavo Straub</b></sub>
         </a>
         <br />
-        <a href="https://github.com/marcos-nunes-dev/Grow-Roadmaps/commits?author=GustavoStraub" title="Code">
+        <a href="https://github.com/GrowRoadmap/grow-app-front/commits?author=GustavoStraub" title="Code">
             💻
         </a>
         <a href="#" title="Ideas, Planning, & Feedback">
             🤔
         </a>
-        <a href="https://github.com/marcos-nunes-dev/Grow-Roadmaps/commits?author=GustavoStraub" title="Documentation">
+        <a href="https://github.com/GrowRoadmap/grow-app-front/commits?author=GustavoStraub" title="Documentation">
             📖
         </a>
-        <a href="https://github.com/marcos-nunes-dev/Grow-Roadmaps/pulls?q=is%3Apr+reviewed-by%3GustavoStraub" title="Reviewed Pull Requests">
+        <a href="https://github.com/GrowRoadmap/grow-app-front/pulls?q=is%3Apr+reviewed-by%3GustavoStraub" title="Reviewed Pull Requests">
             👀
         </a>
-        <a href="https://github.com/marcos-nunes-dev/Grow-Roadmaps/issues?q=author%3GustavoStraub" title="Bug reports">
+        <a href="https://github.com/GrowRoadmap/grow-app-front/issues?q=author%3GustavoStraub" title="Bug reports">
             🐛
         </a>
     </td>    
