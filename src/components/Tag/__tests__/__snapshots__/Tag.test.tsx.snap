@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tag /> should match snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="Box-sc-16mv5fl-0 dqYHOz"
+      data-testid="Tag"
+      display="flex"
+      width="fit-content"
+    >
+      <div
+        class="Box-sc-16mv5fl-0 styles__CircleSign-sc-1pvkvyn-0  bozZeK"
+      />
+      <div
+        class="Box-sc-16mv5fl-0 Text__TextStyled-sc-1eacmib-0 cfMSYc gjXGAy"
+        color="blueGray"
+        font-size="sm"
+      >
+        Undefined
+      </div>
+    </div>
+    <div
+      class="Box-sc-16mv5fl-0 dqYHOz"
+      data-testid="Tag"
+      display="flex"
+      width="fit-content"
+    >
+      <div
+        class="Box-sc-16mv5fl-0 styles__CircleSign-sc-1pvkvyn-0  hLQKiF"
+      />
+      <div
+        class="Box-sc-16mv5fl-0 Text__TextStyled-sc-1eacmib-0 cfMSYc gjXGAy"
+        color="blueGray"
+        font-size="sm"
+      >
+        Easy
+      </div>
+    </div>
+    <div
+      class="Box-sc-16mv5fl-0 dqYHOz"
+      data-testid="Tag"
+      display="flex"
+      width="fit-content"
+    >
+      <div
+        class="Box-sc-16mv5fl-0 styles__CircleSign-sc-1pvkvyn-0  cCUHJI"
+      />
+      <div
+        class="Box-sc-16mv5fl-0 Text__TextStyled-sc-1eacmib-0 cfMSYc gjXGAy"
+        color="blueGray"
+        font-size="sm"
+      >
+        Medium
+      </div>
+    </div>
+    <div
+      class="Box-sc-16mv5fl-0 dqYHOz"
+      data-testid="Tag"
+      display="flex"
+      width="fit-content"
+    >
+      <div
+        class="Box-sc-16mv5fl-0 styles__CircleSign-sc-1pvkvyn-0  iWNvsN"
+      />
+      <div
+        class="Box-sc-16mv5fl-0 Text__TextStyled-sc-1eacmib-0 cfMSYc gjXGAy"
+        color="blueGray"
+        font-size="sm"
+      >
+        Hard
+      </div>
+    </div>
+    <div
+      class="Box-sc-16mv5fl-0 dqYHOz"
+      data-testid="Tag"
+      display="flex"
+      width="fit-content"
+    >
+      <div
+        class="Box-sc-16mv5fl-0 styles__CircleSign-sc-1pvkvyn-0  hTbgPS"
+      />
+      <div
+        class="Box-sc-16mv5fl-0 Text__TextStyled-sc-1eacmib-0 cfMSYc gjXGAy"
+        color="blueGray"
+        font-size="sm"
+      >
+        Expert
+      </div>
+    </div>
+    <div
+      class="Box-sc-16mv5fl-0 dqYHOz"
+      data-testid="Tag"
+      display="flex"
+      width="fit-content"
+    >
+      <div
+        class="Box-sc-16mv5fl-0 styles__CircleSign-sc-1pvkvyn-0  bozZeK"
+      />
+      <div
+        class="Box-sc-16mv5fl-0 Text__TextStyled-sc-1eacmib-0 cfMSYc gjXGAy"
+        color="blueGray"
+        font-size="sm"
+      >
+        <span
+          width="0"
+        >
+          <span />
+          <span>
+            This is an exemple how to truncate
+          </span>
+          <span
+            style="position: fixed; visibility: hidden; top: 0px; left: 0px;"
+          >
+            …
+          </span>
+        </span>
+      </div>
+    </div>
+    <div
+      class="Box-sc-16mv5fl-0 dqYHOz"
+      data-testid="Tag"
+      display="flex"
+      width="fit-content"
+    >
+      <div
+        class="Box-sc-16mv5fl-0 styles__CircleSign-sc-1pvkvyn-0  kPEPzR"
+      />
+      <div
+        class="Box-sc-16mv5fl-0 Text__TextStyled-sc-1eacmib-0 cfMSYc gjXGAy"
+        color="blueGray"
+        font-size="sm"
+      >
+        🧮 This is an exemple how to truncate
+      </div>
+    </div>
+  </div>
+</div>
+`;

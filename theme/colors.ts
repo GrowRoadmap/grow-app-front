@@ -29,6 +29,7 @@ const wine = {
 
 const gray = {
     50: '#F7F9FA',
+    70: '#ececec',
     100: '#DDDFE1',
     200: '#C3C5C8',
     300: '#AAACAE',
@@ -105,9 +106,18 @@ const purple = {
     900: '#0d005d',
 };
 
+const levels = {
+    undefined: '#5b5f64',
+    easy: '#2adf59',
+    medium: '#df9d2a',
+    hard: '#df482a',
+    expert: '#df2a2a',
+};
+
 const colors = {
     transparent: 'transparent',
     current: 'currentColor',
+    levels,
     black: '#000000',
     white: '#FFFFFF',
     wine,
@@ -121,6 +131,7 @@ const colors = {
     info: blue['500'],
     alert: orange['300'],
     error: red['700'],
+    blueGray: '#5b5f64',
 };
 
 export default colors;
