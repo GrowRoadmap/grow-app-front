@@ -1,0 +1,1 @@
+export { Upvote } from './Upvote';
