@@ -3,7 +3,6 @@ import { render, fireEvent } from '@testing-library/react';
 import { Searchbar } from '../Searchbar';
 
 const holder = 'Procurar Roadmap...';
-
 const options = [
     {
         value: 'php',
@@ -18,6 +17,7 @@ const options = [
         label: 'Java',
     },
 ];
+
 describe('<Searchbar />', () => {
     it('should render correctly', () => {
         const { getByText, getByTestId } = render(

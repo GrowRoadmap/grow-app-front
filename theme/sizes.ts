@@ -2,7 +2,7 @@ export const baseSizes = {
     px: '1px',
     '0': '0',
     '1': '0.25rem',
-    '2': '0.10rem',
+    '2': '0.50rem',
     '3': '0.75rem',
     '4': '1rem',
     '5': '1.25rem',
