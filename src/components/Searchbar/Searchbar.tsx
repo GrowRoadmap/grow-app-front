@@ -1,11 +1,11 @@
 import React, { ReactElement } from 'react';
 import { Wrapper } from './styles';
-import { Cascader, Form } from 'antd';
+import { Cascader } from 'antd';
 
-interface SearchbarProps {
+type SearchbarProps = {
     placeholder: string;
     options: Option[];
-}
+};
 
 type Option = {
     value: string;
