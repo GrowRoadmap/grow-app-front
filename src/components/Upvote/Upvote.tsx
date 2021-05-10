@@ -3,9 +3,9 @@ import { Text } from 'components/Text';
 import { VoteWrapper, VoteCount } from './styles';
 import { kFormatter } from '../../../utils/basics';
 
-export interface UpvoteProps {
+export type UpvoteProps = {
     count?: string | number;
-}
+};
 
 export const Upvote: React.FC<UpvoteProps> = ({ count = 0 }) => (
     <VoteWrapper data-testid='Upvote' my='1'>
