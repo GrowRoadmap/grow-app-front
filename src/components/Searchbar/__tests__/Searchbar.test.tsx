@@ -1,14 +1,29 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
 import { Searchbar } from '../Searchbar';
 
-const img =
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png';
-const name = 'Javascript';
+const holder = 'Procurar Roadmap...';
 
-describe('<Text />', () => {
+const options = [
+    {
+        value: 'php',
+        label: 'PHP',
+    },
+    {
+        value: 'javascript',
+        label: 'Javascript',
+    },
+    {
+        value: 'java',
+        label: 'Java',
+    },
+];
+describe('<Searchbar />', () => {
     it('should render correctly', () => {
-        const { getByText } = render(<Searchbar />);
-        expect(getByText(name)).toBeTruthy();
+        const { getByText, getByTestId } = render(
+            <Searchbar options={options} placeholder={holder} />
+        );
+        fireEvent.mouseDown(getByTestId('Search'));
+        setInterval(() => expect(getByText('Javascript')).toBeTruthy(), 500);
     });
 });
