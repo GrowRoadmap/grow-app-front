@@ -16,3 +16,7 @@ const demoAvatarList = [
 ];
 
 export const DefaultView = () => <AvatarList avatarList={demoAvatarList} />;
+
+export const LargeLimited = () => (
+    <AvatarList avatarList={demoAvatarList} size='large' maxCount={2} />
+);

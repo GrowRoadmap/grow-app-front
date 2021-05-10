@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React from 'react';
 import Head from 'next/head';
 import { Box } from 'components/Box';
 import { Text } from 'components/Text';
