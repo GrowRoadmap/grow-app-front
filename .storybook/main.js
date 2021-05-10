@@ -7,7 +7,7 @@ module.exports = {
     ],
 
     // Add any Storybook addons you want here: https://storybook.js.org/addons/
-    addons: ['@storybook/addon-docs', '@storybook/addon-knobs'],
+    addons: ['@storybook/addon-docs', '@storybook/addon-knobs', "@babel/plugin-proposal-private-property-in-object", { "loose": true }],
     webpackFinal: async (config) => {
         config.module.rules.push({
             test: /\.scss$/,
