@@ -1,0 +1,1 @@
+export { ContentTitle } from './ContentTitle';

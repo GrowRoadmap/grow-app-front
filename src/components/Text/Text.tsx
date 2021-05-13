@@ -8,7 +8,7 @@ import { Box, BoxProps } from '../Box';
 export type TextPropsStyled = BoxProps & TypographyProps;
 
 export type TextProps = TextPropsStyled & {
-    truncate?: TruncateProps;
+    truncate?: TruncateProps | boolean;
     as?: any;
     htmlFor?: string;
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>;
